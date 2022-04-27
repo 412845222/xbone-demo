@@ -47,11 +47,13 @@ function xboneInit(xbonedata: any) {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   /* text-align: center; */
 }
 
 #text-test {
-  position: relative;
+  position: fixed;
+  top: 15%;
   padding: 30px;
   font-size: 45px;
   font-weight: 700;
